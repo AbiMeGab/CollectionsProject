@@ -57,8 +57,8 @@ public class CourseService
 	public void displayCreditsInformation(String courseId, int courseCr) {
 		// TODO Auto-generated method stub
 		Course c = courses.get(courseId);
-		Course cr = courses.get(courseCr);
-		System.out.println("Su total de créditos es " + c.displayCreditsInformation(cr));;
+		Course cra = courses.get(courseCr);
+		System.out.println("Su total de créditos es: " + c.displayCreditsInformation(cra));;
 	}
 
 }

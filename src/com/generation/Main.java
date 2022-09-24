@@ -19,7 +19,7 @@ public class Main
         courseService.unEnrollStudent( studentId, courseId );
         courseService.displayStudentInformation( studentId);
         
-        courseService.crSum( courseCr );
+        //courseService.crSum( courseCr );
         courseService.displayCreditsInformation( courseId, courseCr);
     }
 

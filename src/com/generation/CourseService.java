@@ -54,16 +54,11 @@ public class CourseService
     	// o también puede ser System.out.println(s);
     }
 
-	public void crSum(int courseCr) {
-		// TODO Auto-generated method stub
-		
-	}
-
 	public void displayCreditsInformation(String courseId, int courseCr) {
 		// TODO Auto-generated method stub
 		Course c = courses.get(courseId);
 		Course cr = courses.get(courseCr);
-		c.displayCreditsInformation(cr);
+		System.out.println("Su total de créditos es " + c.displayCreditsInformation(cr));;
 	}
 
 }
